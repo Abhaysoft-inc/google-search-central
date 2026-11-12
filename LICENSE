@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-This license covers the original parts of this repository (SKILL.md, the
-scripts, the test cases and this repository's own documentation). It does not
-cover the files under references/pages/, which are Google's documentation and
-remain under the licenses described in NOTICE.md.

@@ -14,3 +14,7 @@ See https://developers.google.com/site-policies for details.
 
 Changes: a front-matter block (title, url, source) was added to each page.
 This skill is not affiliated with or endorsed by Google.
+
+The MIT License in `LICENSE` covers only this repository's own files (SKILL.md,
+the scripts, the test cases and its own documentation), not the pages under
+`references/pages/`.
