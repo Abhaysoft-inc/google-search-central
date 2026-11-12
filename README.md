@@ -79,6 +79,11 @@ the skill's author, so treat it as a rough signal. The baseline's misses were
 missing source links and an outdated account of FAQ rich results; skill runs
 used roughly 30-70% more tokens.
 
+## License
+
+The skill's own files (`SKILL.md`, scripts, test cases, this README) are under
+the [MIT License](LICENSE). The bundled Google documentation is not; see below.
+
 ## Attribution
 
 The documentation under `references/pages/` is by Google and licensed under
