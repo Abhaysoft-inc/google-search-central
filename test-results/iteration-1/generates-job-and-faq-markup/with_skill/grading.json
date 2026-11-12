@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "The JobPosting JSON-LD includes title, description, datePosted and hiringOrganization",
+      "passed": true,
+      "evidence": "JSON-LD has title, description, datePosted and hiringOrganization."
+    },
+    {
+      "text": "The JobPosting JSON-LD sets jobLocationType to TELECOMMUTE and includes applicantLocationRequirements naming Canada as a Country",
+      "passed": true,
+      "evidence": "jobLocationType 'TELECOMMUTE' and applicantLocationRequirements {'@type': 'Country', 'name': 'Canada'}."
+    },
+    {
+      "text": "The JobPosting JSON-LD includes validThrough set to 2026-12-15 (any ISO 8601 form) and employmentType FULL_TIME",
+      "passed": true,
+      "evidence": "validThrough '2026-12-15T23:59' and employmentType 'FULL_TIME'."
+    },
+    {
+      "text": "The JobPosting JSON-LD does not contain an invented salary figure (no baseSalary with a made-up numeric value)",
+      "passed": true,
+      "evidence": "No baseSalary; the response says it was left out because no value was given."
+    },
+    {
+      "text": "The response tells the user that FAQ rich results are not a structured data feature Google currently documents or supports (so FAQPage markup will not produce expandable FAQ results in Google Search)",
+      "passed": true,
+      "evidence": "'Google no longer documents an FAQ rich result, so FAQ schema will not produce the expandable questions'; cites the search gallery and notes QAPage is not a substitute."
+    },
+    {
+      "text": "The response links to Google's JobPosting structured data documentation page on developers.google.com",
+      "passed": true,
+      "evidence": "Links developers.google.com/search/docs/appearance/structured-data/job-posting."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  }
+}

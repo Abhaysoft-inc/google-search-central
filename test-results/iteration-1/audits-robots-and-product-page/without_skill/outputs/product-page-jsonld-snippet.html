@@ -1,0 +1,35 @@
+<!--
+  Goes in the <head> of https://www.brightkettle.example/products/kettle-pro
+  (NOT on the thank-you page).
+
+  Every REPLACE_... value must be swapped for the real figure, and the rating,
+  review count and price must match what a shopper can see on that page.
+  Do not launch with placeholder or invented numbers.
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "BrightKettle Pro 1.7L",
+  "image": "https://www.brightkettle.example/img/kettle-pro.jpg",
+  "description": "REPLACE_WITH_PRODUCT_DESCRIPTION",
+  "sku": "REPLACE_WITH_SKU",
+  "brand": {
+    "@type": "Brand",
+    "name": "BrightKettle"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "reviewCount": "REPLACE_WITH_REAL_REVIEW_COUNT"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.brightkettle.example/products/kettle-pro",
+    "price": "REPLACE_WITH_PRICE",
+    "priceCurrency": "REPLACE_WITH_ISO_CURRENCY_CODE",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>

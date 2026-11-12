@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "skill_name": "google-search-central",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-11-12T19:02:38Z",
+    "evals_run": [
+      "answers-crawler-questions",
+      "audits-robots-and-product-page",
+      "generates-job-and-faq-markup"
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": "answers-crawler-questions",
+      "eval_name": "answers-crawler-questions",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 60.3,
+        "tokens": 83529,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The answer explains verifying Googlebot with a reverse DNS lookup followed by a forward DNS lookup (and/or matching the IP against Google's published IP ranges)",
+          "passed": true,
+          "evidence": "Describes reverse DNS then forward DNS (4 steps, Google's host example) and matching against the published IP range JSON files."
+        },
+        {
+          "text": "The answer states that blocking Google-Extended does not affect the site's inclusion in Google Search and is not used as a ranking signal",
+          "passed": true,
+          "evidence": "Quotes: 'Google-Extended does not impact a site's inclusion in Google Search nor is it used as a ranking signal in Google Search.'"
+        },
+        {
+          "text": "The answer explains that Google-Extended is a robots.txt product token (a control), not a separate crawler with its own HTTP user-agent string",
+          "passed": true,
+          "evidence": "'It has no user agent string of its own; ... the token is only a robots.txt control.'"
+        },
+        {
+          "text": "The answer describes GoogleOther as a generic Google crawler used by product teams for fetching public content (for example research and development), not as the Search indexing crawler",
+          "passed": true,
+          "evidence": "'a generic crawler that various product teams may use to fetch publicly accessible content, for example one-off crawls for internal research and development'; says blocking has no Search impact."
+        },
+        {
+          "text": "The answer includes at least two links to developers.google.com documentation pages supporting its claims, including the page on verifying Google crawler requests",
+          "passed": true,
+          "evidence": "Five developers.google.com links, including verify-google-requests."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "audits-robots-and-product-page",
+      "eval_name": "audits-robots-and-product-page",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 146.2,
+        "tokens": 98621,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The audit points out that because /checkout/ is disallowed in robots.txt, Google cannot crawl the page and so cannot see its noindex tag, meaning the URL can still be indexed",
+          "passed": true,
+          "evidence": "Finding 1: 'robots.txt blocks Google from crawling /checkout/, so Google never sees the page's noindex, and the URL can still be indexed.'"
+        },
+        {
+          "text": "The audit states that Google does not support the crawl-delay field in robots.txt",
+          "passed": true,
+          "evidence": "'Crawl-delay: 10 ... Google does not support this field and ignores it', linked to the robots.txt spec page."
+        },
+        {
+          "text": "The audit states that a Noindex rule in robots.txt is not supported by Google",
+          "passed": true,
+          "evidence": "Finding 5: 'a noindex rule in robots.txt is not supported'."
+        },
+        {
+          "text": "The audit states that the Sitemap line in robots.txt must be a fully qualified (absolute) URL",
+          "passed": true,
+          "evidence": "Finding 4: 'the value must be a fully qualified URL including protocol and host'."
+        },
+        {
+          "text": "The audit states that the AggregateRating is missing a required count property (ratingCount or reviewCount)",
+          "passed": true,
+          "evidence": "'aggregateRating has no ratingCount or reviewCount. At least one of the two is required.'"
+        },
+        {
+          "text": "The audit points out that the product rating marked up in the JSON-LD is not visible in the page content (or that the markup does not represent the main content of this page), which conflicts with Google's structured data guidelines",
+          "passed": true,
+          "evidence": "'The 4.9 rating appears nowhere in the visible page' and 'The page is an order confirmation, not a page about the kettle', both tied to the structured data guidelines."
+        },
+        {
+          "text": "The audit clearly separates required fixes or violations from optional recommendations",
+          "passed": true,
+          "evidence": "Sections 'Broken (fix before launch)', 'Nice-to-have' and 'Fine'."
+        },
+        {
+          "text": "The audit links to at least two developers.google.com documentation pages that back up its findings",
+          "passed": true,
+          "evidence": "Every finding links to a developers.google.com page (block-indexing, robots intro, sd-policies, review-snippet, product-snippet, robots-txt-spec and others)."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "generates-job-and-faq-markup",
+      "eval_name": "generates-job-and-faq-markup",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 6,
+        "failed": 0,
+        "total": 6,
+        "time_seconds": 64.9,
+        "tokens": 96061,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The JobPosting JSON-LD includes title, description, datePosted and hiringOrganization",
+          "passed": true,
+          "evidence": "JSON-LD has title, description, datePosted and hiringOrganization."
+        },
+        {
+          "text": "The JobPosting JSON-LD sets jobLocationType to TELECOMMUTE and includes applicantLocationRequirements naming Canada as a Country",
+          "passed": true,
+          "evidence": "jobLocationType 'TELECOMMUTE' and applicantLocationRequirements {'@type': 'Country', 'name': 'Canada'}."
+        },
+        {
+          "text": "The JobPosting JSON-LD includes validThrough set to 2026-12-15 (any ISO 8601 form) and employmentType FULL_TIME",
+          "passed": true,
+          "evidence": "validThrough '2026-12-15T23:59' and employmentType 'FULL_TIME'."
+        },
+        {
+          "text": "The JobPosting JSON-LD does not contain an invented salary figure (no baseSalary with a made-up numeric value)",
+          "passed": true,
+          "evidence": "No baseSalary; the response says it was left out because no value was given."
+        },
+        {
+          "text": "The response tells the user that FAQ rich results are not a structured data feature Google currently documents or supports (so FAQPage markup will not produce expandable FAQ results in Google Search)",
+          "passed": true,
+          "evidence": "'Google no longer documents an FAQ rich result, so FAQ schema will not produce the expandable questions'; cites the search gallery and notes QAPage is not a substitute."
+        },
+        {
+          "text": "The response links to Google's JobPosting structured data documentation page on developers.google.com",
+          "passed": true,
+          "evidence": "Links developers.google.com/search/docs/appearance/structured-data/job-posting."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "answers-crawler-questions",
+      "eval_name": "answers-crawler-questions",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 5,
+        "failed": 0,
+        "total": 5,
+        "time_seconds": 71.5,
+        "tokens": 66003,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The answer explains verifying Googlebot with a reverse DNS lookup followed by a forward DNS lookup (and/or matching the IP against Google's published IP ranges)",
+          "passed": true,
+          "evidence": "Describes reverse then forward DNS lookup and the IP range JSON files (the run fetched Google's live pages from the web)."
+        },
+        {
+          "text": "The answer states that blocking Google-Extended does not affect the site's inclusion in Google Search and is not used as a ranking signal",
+          "passed": true,
+          "evidence": "Quotes the same Google sentence that Google-Extended does not impact inclusion or ranking."
+        },
+        {
+          "text": "The answer explains that Google-Extended is a robots.txt product token (a control), not a separate crawler with its own HTTP user-agent string",
+          "passed": true,
+          "evidence": "'It is not a crawler. It is only a robots.txt token and has no user agent string of its own.'"
+        },
+        {
+          "text": "The answer describes GoogleOther as a generic Google crawler used by product teams for fetching public content (for example research and development), not as the Search indexing crawler",
+          "passed": true,
+          "evidence": "Describes GoogleOther as a generic crawler for product teams, e.g. internal research and development; separate from Search."
+        },
+        {
+          "text": "The answer includes at least two links to developers.google.com documentation pages supporting its claims, including the page on verifying Google crawler requests",
+          "passed": true,
+          "evidence": "Five developers.google.com links including verify-google-requests. Note: source 5 uses an old robots.txt URL that now redirects, and the run flags two links as unchecked."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "audits-robots-and-product-page",
+      "eval_name": "audits-robots-and-product-page",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.88,
+        "passed": 7,
+        "failed": 1,
+        "total": 8,
+        "time_seconds": 60.9,
+        "tokens": 65270,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The audit points out that because /checkout/ is disallowed in robots.txt, Google cannot crawl the page and so cannot see its noindex tag, meaning the URL can still be indexed",
+          "passed": true,
+          "evidence": "Finding 1: the Disallow 'stops Google from fetching the thank-you page, so it never reads' the noindex; 'A blocked URL can still be indexed'."
+        },
+        {
+          "text": "The audit states that Google does not support the crawl-delay field in robots.txt",
+          "passed": true,
+          "evidence": "'Crawl-delay: 10: Google ignores it'."
+        },
+        {
+          "text": "The audit states that a Noindex rule in robots.txt is not supported by Google",
+          "passed": true,
+          "evidence": "Finding 4: 'Google has not supported noindex lines in robots.txt since 2019. The line is ignored'."
+        },
+        {
+          "text": "The audit states that the Sitemap line in robots.txt must be a fully qualified (absolute) URL",
+          "passed": true,
+          "evidence": "Finding 6: 'Sitemap: /sitemap.xml is a relative path. Google requires a full URL'."
+        },
+        {
+          "text": "The audit states that the AggregateRating is missing a required count property (ratingCount or reviewCount)",
+          "passed": true,
+          "evidence": "Finding 3: 'Google also requires ratingCount or reviewCount'."
+        },
+        {
+          "text": "The audit points out that the product rating marked up in the JSON-LD is not visible in the page content (or that the markup does not represent the main content of this page), which conflicts with Google's structured data guidelines",
+          "passed": true,
+          "evidence": "Finding 2: 'structured data must describe the main content of its page'; says the product page 'must show the rating to shoppers'."
+        },
+        {
+          "text": "The audit clearly separates required fixes or violations from optional recommendations",
+          "passed": true,
+          "evidence": "Sections 'Broken: fix before launch' and 'Nice-to-have'."
+        },
+        {
+          "text": "The audit links to at least two developers.google.com documentation pages that back up its findings",
+          "passed": false,
+          "evidence": "The audit contains no links to Google documentation at all; every claim is unsourced."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "generates-job-and-faq-markup",
+      "eval_name": "generates-job-and-faq-markup",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.67,
+        "passed": 4,
+        "failed": 2,
+        "total": 6,
+        "time_seconds": 29.2,
+        "tokens": 57174,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "The JobPosting JSON-LD includes title, description, datePosted and hiringOrganization",
+          "passed": true,
+          "evidence": "JSON-LD has title, description, datePosted and hiringOrganization."
+        },
+        {
+          "text": "The JobPosting JSON-LD sets jobLocationType to TELECOMMUTE and includes applicantLocationRequirements naming Canada as a Country",
+          "passed": true,
+          "evidence": "jobLocationType 'TELECOMMUTE' and applicantLocationRequirements Country Canada."
+        },
+        {
+          "text": "The JobPosting JSON-LD includes validThrough set to 2026-12-15 (any ISO 8601 form) and employmentType FULL_TIME",
+          "passed": true,
+          "evidence": "validThrough '2026-12-15T23:59:59-08:00' and employmentType 'FULL_TIME'."
+        },
+        {
+          "text": "The JobPosting JSON-LD does not contain an invented salary figure (no baseSalary with a made-up numeric value)",
+          "passed": true,
+          "evidence": "No baseSalary; says it was not added because none was given."
+        },
+        {
+          "text": "The response tells the user that FAQ rich results are not a structured data feature Google currently documents or supports (so FAQPage markup will not produce expandable FAQ results in Google Search)",
+          "passed": false,
+          "evidence": "Correctly tells the user they will not get FAQ rich results, but for an outdated reason: says the feature is 'restricted ... to well-known government and health sites' and points the user to 'the current FAQPage page in Google Search Central'. The current docs have no FAQ feature or page at all."
+        },
+        {
+          "text": "The response links to Google's JobPosting structured data documentation page on developers.google.com",
+          "passed": false,
+          "evidence": "No link to Google's JobPosting documentation (no links at all); states the markup was written 'from memory of Google's documentation'."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 90.4667,
+        "stddev": 48.3213,
+        "min": 60.3,
+        "max": 146.2
+      },
+      "tokens": {
+        "mean": 92737.0,
+        "stddev": 8076.4378,
+        "min": 83529,
+        "max": 98621
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.85,
+        "stddev": 0.167,
+        "min": 0.67,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 53.8667,
+        "stddev": 22.0096,
+        "min": 29.2,
+        "max": 71.5
+      },
+      "tokens": {
+        "mean": 62815.6667,
+        "stddev": 4899.5535,
+        "min": 57174,
+        "max": 66003
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.15",
+      "time_seconds": "+36.6",
+      "tokens": "+29921"
+    }
+  },
+  "notes": [
+    "Small sample: 3 prompts, one run each, graded by the skill author. Treat the numbers as a rough signal.",
+    "The no-skill baseline was already strong (16 of 19 checks). In the crawler question it fetched the live Google docs from the web and matched the skill run on every check, so that test does not discriminate.",
+    "All 3 baseline misses are about sourcing and currency: no doc links in the audit or the markup answer, and an outdated explanation of FAQ rich results (said gov/health sites only; current docs have no FAQ feature).",
+    "Cost: skill runs used about 30-70 percent more tokens than baseline, and the audit took more than twice as long (146s vs 61s) because it read several doc pages."
+  ]
+}

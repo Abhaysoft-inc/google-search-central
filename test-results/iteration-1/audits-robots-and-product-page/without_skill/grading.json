@@ -1,0 +1,50 @@
+{
+  "expectations": [
+    {
+      "text": "The audit points out that because /checkout/ is disallowed in robots.txt, Google cannot crawl the page and so cannot see its noindex tag, meaning the URL can still be indexed",
+      "passed": true,
+      "evidence": "Finding 1: the Disallow 'stops Google from fetching the thank-you page, so it never reads' the noindex; 'A blocked URL can still be indexed'."
+    },
+    {
+      "text": "The audit states that Google does not support the crawl-delay field in robots.txt",
+      "passed": true,
+      "evidence": "'Crawl-delay: 10: Google ignores it'."
+    },
+    {
+      "text": "The audit states that a Noindex rule in robots.txt is not supported by Google",
+      "passed": true,
+      "evidence": "Finding 4: 'Google has not supported noindex lines in robots.txt since 2019. The line is ignored'."
+    },
+    {
+      "text": "The audit states that the Sitemap line in robots.txt must be a fully qualified (absolute) URL",
+      "passed": true,
+      "evidence": "Finding 6: 'Sitemap: /sitemap.xml is a relative path. Google requires a full URL'."
+    },
+    {
+      "text": "The audit states that the AggregateRating is missing a required count property (ratingCount or reviewCount)",
+      "passed": true,
+      "evidence": "Finding 3: 'Google also requires ratingCount or reviewCount'."
+    },
+    {
+      "text": "The audit points out that the product rating marked up in the JSON-LD is not visible in the page content (or that the markup does not represent the main content of this page), which conflicts with Google's structured data guidelines",
+      "passed": true,
+      "evidence": "Finding 2: 'structured data must describe the main content of its page'; says the product page 'must show the rating to shoppers'."
+    },
+    {
+      "text": "The audit clearly separates required fixes or violations from optional recommendations",
+      "passed": true,
+      "evidence": "Sections 'Broken: fix before launch' and 'Nice-to-have'."
+    },
+    {
+      "text": "The audit links to at least two developers.google.com documentation pages that back up its findings",
+      "passed": false,
+      "evidence": "The audit contains no links to Google documentation at all; every claim is unsourced."
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.88
+  }
+}

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: generates-job-and-faq-markup
+expected_outcome: |
+  Valid JobPosting JSON-LD for a remote-in-Canada job with all required properties and no invented values, plus a clear statement that Google's current documentation has no FAQ rich result feature, so FAQ markup will not produce expandable FAQ results.

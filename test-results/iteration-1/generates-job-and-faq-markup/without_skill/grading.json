@@ -1,0 +1,40 @@
+{
+  "expectations": [
+    {
+      "text": "The JobPosting JSON-LD includes title, description, datePosted and hiringOrganization",
+      "passed": true,
+      "evidence": "JSON-LD has title, description, datePosted and hiringOrganization."
+    },
+    {
+      "text": "The JobPosting JSON-LD sets jobLocationType to TELECOMMUTE and includes applicantLocationRequirements naming Canada as a Country",
+      "passed": true,
+      "evidence": "jobLocationType 'TELECOMMUTE' and applicantLocationRequirements Country Canada."
+    },
+    {
+      "text": "The JobPosting JSON-LD includes validThrough set to 2026-12-15 (any ISO 8601 form) and employmentType FULL_TIME",
+      "passed": true,
+      "evidence": "validThrough '2026-12-15T23:59:59-08:00' and employmentType 'FULL_TIME'."
+    },
+    {
+      "text": "The JobPosting JSON-LD does not contain an invented salary figure (no baseSalary with a made-up numeric value)",
+      "passed": true,
+      "evidence": "No baseSalary; says it was not added because none was given."
+    },
+    {
+      "text": "The response tells the user that FAQ rich results are not a structured data feature Google currently documents or supports (so FAQPage markup will not produce expandable FAQ results in Google Search)",
+      "passed": false,
+      "evidence": "Correctly tells the user they will not get FAQ rich results, but for an outdated reason: says the feature is 'restricted ... to well-known government and health sites' and points the user to 'the current FAQPage page in Google Search Central'. The current docs have no FAQ feature or page at all."
+    },
+    {
+      "text": "The response links to Google's JobPosting structured data documentation page on developers.google.com",
+      "passed": false,
+      "evidence": "No link to Google's JobPosting documentation (no links at all); states the markup was written 'from memory of Google's documentation'."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 2,
+    "total": 6,
+    "pass_rate": 0.67
+  }
+}

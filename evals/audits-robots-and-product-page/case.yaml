@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audits-robots-and-product-page
+expected_outcome: |
+  An audit report that separates real violations from recommendations, finds the robots.txt/noindex conflict, the unsupported robots.txt fields, and the incomplete Product markup, each with a fix and a link to Google's docs.
+context:
+  scaffold_script: place-files.sh

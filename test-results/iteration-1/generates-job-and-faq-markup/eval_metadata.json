@@ -1,0 +1,12 @@
+{
+  "eval_name": "generates-job-and-faq-markup",
+  "prompt": "I need structured data for a job page on our careers site so it shows up in Google's job search, plus FAQ schema for the three questions at the bottom of the page so we get those expandable FAQ rich results in Google.\n\nJob: Senior Data Engineer at Northwind Analytics (https://www.northwind-analytics.example). Fully remote, but you have to live in Canada. Full time. Posted 2026-11-10, applications close 2026-12-15. Description: \"Design and run our batch and streaming data pipelines on GCP. You will own data quality for the analytics platform and mentor two junior engineers. 5+ years of data engineering experience required.\"\n\nFAQs:\n1. Is this role fully remote? - Yes, anywhere in Canada.\n2. Do you sponsor visas? - Not for this role.\n3. What is the interview process? - A recruiter call, a take-home exercise, and a panel interview.\n\nGive me the JSON-LD ready to paste.",
+  "assertions": [
+    "The JobPosting JSON-LD includes title, description, datePosted and hiringOrganization",
+    "The JobPosting JSON-LD sets jobLocationType to TELECOMMUTE and includes applicantLocationRequirements naming Canada as a Country",
+    "The JobPosting JSON-LD includes validThrough set to 2026-12-15 (any ISO 8601 form) and employmentType FULL_TIME",
+    "The JobPosting JSON-LD does not contain an invented salary figure (no baseSalary with a made-up numeric value)",
+    "The response tells the user that FAQ rich results are not a structured data feature Google currently documents or supports (so FAQPage markup will not produce expandable FAQ results in Google Search)",
+    "The response links to Google's JobPosting structured data documentation page on developers.google.com"
+  ]
+}

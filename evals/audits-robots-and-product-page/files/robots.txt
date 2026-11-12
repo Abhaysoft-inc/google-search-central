@@ -1,0 +1,10 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /checkout/
+Disallow: /cart/
+Noindex: /old-catalogue/
+
+User-agent: Googlebot-Image
+Disallow: /
+
+Sitemap: /sitemap.xml

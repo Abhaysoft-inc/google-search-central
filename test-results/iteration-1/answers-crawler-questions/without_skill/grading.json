@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "The answer explains verifying Googlebot with a reverse DNS lookup followed by a forward DNS lookup (and/or matching the IP against Google's published IP ranges)",
+      "passed": true,
+      "evidence": "Describes reverse then forward DNS lookup and the IP range JSON files (the run fetched Google's live pages from the web)."
+    },
+    {
+      "text": "The answer states that blocking Google-Extended does not affect the site's inclusion in Google Search and is not used as a ranking signal",
+      "passed": true,
+      "evidence": "Quotes the same Google sentence that Google-Extended does not impact inclusion or ranking."
+    },
+    {
+      "text": "The answer explains that Google-Extended is a robots.txt product token (a control), not a separate crawler with its own HTTP user-agent string",
+      "passed": true,
+      "evidence": "'It is not a crawler. It is only a robots.txt token and has no user agent string of its own.'"
+    },
+    {
+      "text": "The answer describes GoogleOther as a generic Google crawler used by product teams for fetching public content (for example research and development), not as the Search indexing crawler",
+      "passed": true,
+      "evidence": "Describes GoogleOther as a generic crawler for product teams, e.g. internal research and development; separate from Search."
+    },
+    {
+      "text": "The answer includes at least two links to developers.google.com documentation pages supporting its claims, including the page on verifying Google crawler requests",
+      "passed": true,
+      "evidence": "Five developers.google.com links including verify-google-requests. Note: source 5 uses an old robots.txt URL that now redirects, and the run flags two links as unchecked."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

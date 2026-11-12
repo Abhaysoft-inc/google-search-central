@@ -1,0 +1,14 @@
+{
+  "eval_name": "audits-robots-and-product-page",
+  "prompt": "Can you audit these two files for Google SEO problems before we launch? robots.txt is our live robots file and thank-you.html is served at https://www.brightkettle.example/checkout/thank-you . We want the checkout pages kept out of Google, and we want star ratings to show for the kettle we recommend on that page. Tell me what's actually broken vs nice-to-have.\n\nInput files: robots.txt, thank-you.html",
+  "assertions": [
+    "The audit points out that because /checkout/ is disallowed in robots.txt, Google cannot crawl the page and so cannot see its noindex tag, meaning the URL can still be indexed",
+    "The audit states that Google does not support the crawl-delay field in robots.txt",
+    "The audit states that a Noindex rule in robots.txt is not supported by Google",
+    "The audit states that the Sitemap line in robots.txt must be a fully qualified (absolute) URL",
+    "The audit states that the AggregateRating is missing a required count property (ratingCount or reviewCount)",
+    "The audit points out that the product rating marked up in the JSON-LD is not visible in the page content (or that the markup does not represent the main content of this page), which conflicts with Google's structured data guidelines",
+    "The audit clearly separates required fixes or violations from optional recommendations",
+    "The audit links to at least two developers.google.com documentation pages that back up its findings"
+  ]
+}

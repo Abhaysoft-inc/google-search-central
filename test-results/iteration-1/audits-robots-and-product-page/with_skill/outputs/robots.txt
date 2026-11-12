@@ -1,0 +1,8 @@
+# /checkout/ is deliberately NOT disallowed: Google has to crawl those pages
+# to see their noindex rule. Keep noindex on every /checkout/ URL.
+User-agent: *
+# Google ignores Crawl-delay. Kept only for other crawlers; delete if not needed.
+Crawl-delay: 10
+Disallow: /cart/
+
+Sitemap: https://www.brightkettle.example/sitemap.xml

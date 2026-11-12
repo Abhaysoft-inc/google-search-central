@@ -1,0 +1,11 @@
+{
+  "eval_name": "answers-crawler-questions",
+  "prompt": "our server logs are full of requests with a Googlebot user agent but some come from IPs that look sketchy. how do I actually check which ones are really Google? also my boss wants to block Google-Extended because he read it stops Google using our content for AI - will that hurt our rankings or remove us from search? and is GoogleOther something we need to worry about. please give me sources I can forward to him",
+  "assertions": [
+    "The answer explains verifying Googlebot with a reverse DNS lookup followed by a forward DNS lookup (and/or matching the IP against Google's published IP ranges)",
+    "The answer states that blocking Google-Extended does not affect the site's inclusion in Google Search and is not used as a ranking signal",
+    "The answer explains that Google-Extended is a robots.txt product token (a control), not a separate crawler with its own HTTP user-agent string",
+    "The answer describes GoogleOther as a generic Google crawler used by product teams for fetching public content (for example research and development), not as the Search indexing crawler",
+    "The answer includes at least two links to developers.google.com documentation pages supporting its claims, including the page on verifying Google crawler requests"
+  ]
+}
