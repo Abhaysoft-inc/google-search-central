@@ -20,25 +20,25 @@ from pathlib import Path
 REFS = Path(__file__).resolve().parent.parent / "references"
 PAGES = REFS / "pages"
 
-SECTIONS = [  # (path prefix, heading) - first match wins, order = order in page-index.md
+SECTIONS = [  # (path prefix, "Short name: description") - first match wins; order = display order
     ("fundamentals", "Fundamentals: SEO basics, how Search works, AI and helpful-content guidance"),
     ("essentials", "Search Essentials: technical requirements and spam policies"),
-    ("crawling-docs/robots-txt", "robots.txt"),
-    ("crawling-indexing/robots", "robots.txt"),
-    ("crawling-docs/crawlers-fetchers", "Google crawlers and fetchers (user agents, verification, crawl rate)"),
+    ("crawling-docs/robots-txt", "robots.txt: syntax, rules and examples"),
+    ("crawling-indexing/robots/", "robots.txt: syntax, rules and examples"),
+    ("crawling-docs/crawlers-fetchers", "Google crawlers: user agents, verification, crawl rate"),
     ("crawling-docs", "Crawling: crawl budget, faceted navigation, HTTP status and network errors"),
-    ("crawling-indexing/sitemaps", "Sitemaps"),
-    ("crawling-indexing/javascript", "JavaScript SEO"),
-    ("crawling-indexing/amp", "AMP"),
-    ("crawling-indexing", "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"),
-    ("appearance/structured-data", "Structured data (rich results), one page per feature"),
-    ("appearance", "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"),
-    ("specialty/ecommerce", "Ecommerce"),
-    ("specialty/international", "International and multilingual (hreflang)"),
-    ("specialty", "Explicit content"),
-    ("monitor-debug/security", "Security: malware, social engineering"),
-    ("monitor-debug", "Monitoring and debugging: Search Console, traffic drops, search operators"),
-    ("", "Top-level overview pages"),
+    ("crawling-indexing/sitemaps", "Sitemaps: XML, image, video and news sitemaps"),
+    ("crawling-indexing/javascript", "JavaScript SEO: rendering, lazy loading, dynamic rendering"),
+    ("crawling-indexing/amp", "AMP: enhance, validate and remove AMP pages"),
+    ("crawling-indexing", "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"),
+    ("appearance/structured-data", "Structured data: rich results, one page per feature"),
+    ("appearance", "Search appearance: titles, snippets, images, video, Discover, ranking systems"),
+    ("specialty/ecommerce", "Ecommerce: product data, URL structure, pagination"),
+    ("specialty/international", "International: multilingual sites and hreflang"),
+    ("specialty", "Explicit content: SafeSearch guidelines and troubleshooting"),
+    ("monitor-debug/security", "Security: malware and social engineering"),
+    ("monitor-debug", "Monitoring: Search Console, traffic drops, search operators"),
+    ("", "Overview: top-level landing pages"),
 ]
 
 

@@ -81,97 +81,91 @@
 "file": "crawling-docs/robots-txt/create-robots-txt.md",
 "title": "Create and Submit a robots.txt File",
 "url": "https://developers.google.com/crawling/docs/robots-txt/create-robots-txt",
-"section": "robots.txt"
+"section": "robots.txt: syntax, rules and examples"
 },
 {
 "file": "crawling-docs/robots-txt/robots-txt-spec.md",
 "title": "How Google interprets the robots.txt specification",
 "url": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
-"section": "robots.txt"
+"section": "robots.txt: syntax, rules and examples"
 },
 {
 "file": "crawling-docs/robots-txt/submit-updated-robots-txt.md",
 "title": "Updating Your Robots.txt File",
 "url": "https://developers.google.com/crawling/docs/robots-txt/submit-updated-robots-txt",
-"section": "robots.txt"
+"section": "robots.txt: syntax, rules and examples"
 },
 {
 "file": "crawling-docs/robots-txt/useful-robots-txt-rules.md",
 "title": "Useful robots.txt rules",
 "url": "https://developers.google.com/crawling/docs/robots-txt/useful-robots-txt-rules",
-"section": "robots.txt"
-},
-{
-"file": "crawling-indexing/robots-meta-tag.md",
-"title": "Robots Meta Tags Specifications",
-"url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
-"section": "robots.txt"
+"section": "robots.txt: syntax, rules and examples"
 },
 {
 "file": "crawling-indexing/robots/intro.md",
 "title": "Robots.txt Introduction and Guide",
 "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
-"section": "robots.txt"
+"section": "robots.txt: syntax, rules and examples"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/apis-user-agent.md",
 "title": "APIs-Google User Agent",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/apis-user-agent",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/feedfetcher.md",
 "title": "Feedfetcher",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/feedfetcher",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/google-common-crawlers.md",
 "title": "List of Google's common crawlers",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/google-special-case-crawlers.md",
 "title": "List of Google's special-case crawlers",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-special-case-crawlers",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/google-user-triggered-fetchers.md",
 "title": "List of Google user-triggered fetchers",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/overview-google-crawlers.md",
 "title": "Overview of Google crawlers and fetchers (user agents)",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/read-aloud-user-agent.md",
 "title": "Google Read Aloud User Agent",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/read-aloud-user-agent",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/reduce-crawl-rate.md",
 "title": "Reduce the Google crawl rate",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/reduce-crawl-rate",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/verify-google-requests.md",
 "title": "Verify Requests from Google Crawlers and Fetchers",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/crawlers-fetchers/web-bot-auth.md",
 "title": "Google's Guide to Authenticating Requests with Web Bot Auth (Experimental)",
 "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/web-bot-auth",
-"section": "Google crawlers and fetchers (user agents, verification, crawl rate)"
+"section": "Google crawlers: user agents, verification, crawl rate"
 },
 {
 "file": "crawling-docs/about-crawling.md",
@@ -219,894 +213,900 @@
 "file": "crawling-indexing/sitemaps/build-sitemap.md",
 "title": "Build and submit a sitemap",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/sitemaps/combine-sitemap-extensions.md",
 "title": "How to Combine Sitemap Extensions",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/combine-sitemap-extensions",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/sitemaps/image-sitemaps.md",
 "title": "Image Sitemaps",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/sitemaps/large-sitemaps.md",
 "title": "Manage Your Sitemaps With Sitemap Index Files",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/sitemaps/news-sitemap.md",
 "title": "Create a News Sitemap",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/sitemaps/overview.md",
 "title": "What Is a Sitemap",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/sitemaps/video-sitemaps.md",
 "title": "Video sitemaps and alternatives",
 "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps",
-"section": "Sitemaps"
+"section": "Sitemaps: XML, image, video and news sitemaps"
 },
 {
 "file": "crawling-indexing/javascript/dynamic-rendering.md",
 "title": "Dynamic Rendering as a workaround",
 "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering",
-"section": "JavaScript SEO"
+"section": "JavaScript SEO: rendering, lazy loading, dynamic rendering"
 },
 {
 "file": "crawling-indexing/javascript/fix-search-javascript.md",
 "title": "Fix Search-Related JavaScript Problems",
 "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript",
-"section": "JavaScript SEO"
+"section": "JavaScript SEO: rendering, lazy loading, dynamic rendering"
 },
 {
 "file": "crawling-indexing/javascript/javascript-seo-basics.md",
 "title": "Understand the JavaScript SEO basics",
 "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
-"section": "JavaScript SEO"
+"section": "JavaScript SEO: rendering, lazy loading, dynamic rendering"
 },
 {
 "file": "crawling-indexing/javascript/lazy-loading.md",
 "title": "Fix Lazy-Loaded Website Content",
 "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading",
-"section": "JavaScript SEO"
+"section": "JavaScript SEO: rendering, lazy loading, dynamic rendering"
 },
 {
 "file": "crawling-indexing/amp.md",
 "title": "About AMP on Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/amp",
-"section": "AMP"
+"section": "AMP: enhance, validate and remove AMP pages"
 },
 {
 "file": "crawling-indexing/amp/enhance-amp.md",
 "title": "Enhance AMP content in Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/amp/enhance-amp",
-"section": "AMP"
+"section": "AMP: enhance, validate and remove AMP pages"
 },
 {
 "file": "crawling-indexing/amp/remove-amp.md",
 "title": "Remove your AMP pages from Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/amp/remove-amp",
-"section": "AMP"
+"section": "AMP: enhance, validate and remove AMP pages"
 },
 {
 "file": "crawling-indexing/amp/validate-amp.md",
 "title": "Validate your AMP content",
 "url": "https://developers.google.com/search/docs/crawling-indexing/amp/validate-amp",
-"section": "AMP"
+"section": "AMP: enhance, validate and remove AMP pages"
 },
 {
 "file": "crawling-indexing.md",
 "title": "Google Crawling and Indexing",
 "url": "https://developers.google.com/search/docs/crawling-indexing",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/301-redirects.md",
 "title": "Redirects and Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/ask-google-to-recrawl.md",
 "title": "Ask Google to Recrawl Your Website",
 "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/block-indexing.md",
 "title": "Block Search Indexing with noindex",
 "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/canonicalization-troubleshooting.md",
 "title": "Fix canonicalization issues",
 "url": "https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/canonicalization.md",
 "title": "What is canonicalization",
 "url": "https://developers.google.com/search/docs/crawling-indexing/canonicalization",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/consolidate-duplicate-urls.md",
 "title": "How to specify a canonical URL with rel=\"canonical\" and other methods",
 "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/control-what-you-share.md",
 "title": "Control what you share with Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/control-what-you-share",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/googlebot.md",
 "title": "What Is Googlebot",
 "url": "https://developers.google.com/search/docs/crawling-indexing/googlebot",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/indexable-file-types.md",
 "title": "File Types Indexable by Google",
 "url": "https://developers.google.com/search/docs/crawling-indexing/indexable-file-types",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/keep-redacted-information-out.md",
 "title": "Keep Redacted Information out of Google",
 "url": "https://developers.google.com/search/docs/crawling-indexing/keep-redacted-information-out",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/links-crawlable.md",
 "title": "SEO Link Best Practices for Google",
 "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/mobile/mobile-sites-mobile-first-indexing.md",
 "title": "Mobile-first Indexing Best Practices",
 "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/pause-online-business.md",
 "title": "Temporarily Pause Or Disable Website",
 "url": "https://developers.google.com/search/docs/crawling-indexing/pause-online-business",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/prevent-images-on-your-page.md",
 "title": "Remove your own site's images from Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/prevent-images-on-your-page",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/qualify-outbound-links.md",
 "title": "Qualify your outbound links to Google",
 "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/remove-information.md",
 "title": "Remove Your Site Info from Google",
 "url": "https://developers.google.com/search/docs/crawling-indexing/remove-information",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+},
+{
+"file": "crawling-indexing/robots-meta-tag.md",
+"title": "Robots Meta Tags Specifications",
+"url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/site-move-no-url-changes.md",
 "title": "Changing Your Web Hosting and SEO",
 "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-no-url-changes",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/site-move-with-url-changes.md",
 "title": "How to move a site",
 "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/special-tags.md",
 "title": "Meta Tags and Attributes that Google Supports",
 "url": "https://developers.google.com/search/docs/crawling-indexing/special-tags",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/troubleshoot-crawling-errors.md",
 "title": "Troubleshoot Google Search Crawling Errors",
 "url": "https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/url-structure.md",
 "title": "URL structure best practices for Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/url-structure",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/valid-page-metadata.md",
 "title": "Valid Page Metadata for Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "crawling-indexing/website-testing.md",
 "title": "Minimize A/B testing impact in Google Search",
 "url": "https://developers.google.com/search/docs/crawling-indexing/website-testing",
-"section": "Crawling and indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
+"section": "Indexing: canonicals, redirects, noindex, meta tags, site moves, URLs, mobile"
 },
 {
 "file": "appearance/structured-data/article.md",
 "title": "Article (`Article`, `NewsArticle`, `BlogPosting`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/article",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/book.md",
 "title": "Book Schema for Google Search",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/book",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/breadcrumb.md",
 "title": "Breadcrumb (`BreadcrumbList`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/carousel.md",
 "title": "Carousel (`ItemList`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/carousel",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/carousels-beta.md",
 "title": "Structured data carousels (beta)",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/carousels-beta",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/course.md",
 "title": "Course list (`Course`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/course",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/dataset.md",
 "title": "Dataset (`Dataset`, `DataCatalog`, `DataDownload`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/dataset",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/discussion-forum.md",
 "title": "Discussion forum (`DiscussionForumPosting`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/discussion-forum",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/education-qa.md",
 "title": "Education Q\\\\&A (`Quiz`, `Question`, and `Answer`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/education-qa",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/employer-rating.md",
 "title": "Employer aggregate rating (`EmployerAggregateRating`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/employer-rating",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/event.md",
 "title": "Event (`Event`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/event",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/factcheck.md",
 "title": "Fact check (`ClaimReview`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/factcheck",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/generate-structured-data-with-javascript.md",
 "title": "Generate Structured Data with JavaScript",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/image-license-metadata.md",
 "title": "Google Images SEO: Image Metadata",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/intro-structured-data.md",
 "title": "Intro to How Structured Data Markup Works",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/job-posting.md",
 "title": "Job posting (`JobPosting`) structured data for Job Search",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/job-posting",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/local-business.md",
 "title": "Local business (`LocalBusiness`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/loyalty-program.md",
 "title": "Loyalty program (`MemberProgram`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/loyalty-program",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/math-solvers.md",
 "title": "Math solver (`MathSolver`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/math-solvers",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/merchant-listing.md",
 "title": "Merchant listing (`Product`, `Offer`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/movie.md",
 "title": "Movie carousel (`Movie`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/movie",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/organization.md",
 "title": "Organization (`Organization`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/organization",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/paywalled-content.md",
 "title": "Structured data for subscription and paywalled content (`CreativeWork`)",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/product-snippet.md",
 "title": "Product snippet (`Product`, `Review`, `Offer`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/product-variants.md",
 "title": "Product variant structured data (`ProductGroup`, `Product`)",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/product-variants",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/product.md",
 "title": "Intro to Product Structured Data on Google",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/product",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/profile-page.md",
 "title": "Profile page (`ProfilePage`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/profile-page",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/qapage.md",
 "title": "Q\\\\&A (`QAPage`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/qapage",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/recipe.md",
 "title": "Recipe (`Recipe`, `HowTo`, `ItemList`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/recipe",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/return-policy.md",
 "title": "Merchant return policy (`MerchantReturnPolicy`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/return-policy",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/review-snippet.md",
 "title": "Review snippet (`Review`, `AggregateRating`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/sd-policies.md",
 "title": "General structured data guidelines",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/search-gallery.md",
 "title": "Structured data markup that Google Search supports",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/shipping-policy.md",
 "title": "Merchant shipping policy (`ShippingService`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/shipping-policy",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/software-app.md",
 "title": "Software app (`SoftwareApplication`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/software-app",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/speakable.md",
 "title": "Speakable (`Article`, `WebPage`) structured data (BETA)",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/speakable",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/vacation-rental.md",
 "title": "Vacation rental (`VacationRental`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/vacation-rental",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance/structured-data/video.md",
 "title": "Video (`VideoObject`, `Clip`, `BroadcastEvent`) structured data",
 "url": "https://developers.google.com/search/docs/appearance/structured-data/video",
-"section": "Structured data (rich results), one page per feature"
+"section": "Structured data: rich results, one page per feature"
 },
 {
 "file": "appearance.md",
 "title": "Overview of Search appearance topics",
 "url": "https://developers.google.com/search/docs/appearance",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/ad-network-and-translation.md",
 "title": "Ad Networks & Translation Search Features",
 "url": "https://developers.google.com/search/docs/appearance/ad-network-and-translation",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/aggregator-features.md",
 "title": "Regional differences in Search experience",
 "url": "https://developers.google.com/search/docs/appearance/aggregator-features",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/aggregator-unit.md",
 "title": "Aggregator unit in Google Search",
 "url": "https://developers.google.com/search/docs/appearance/aggregator-unit",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/ai-features.md",
 "title": "AI Features and Your Website",
 "url": "https://developers.google.com/search/docs/appearance/ai-features",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/avoid-intrusive-interstitials.md",
 "title": "Interstitials and dialogs",
 "url": "https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/core-updates.md",
 "title": "Google Search's Core Updates",
 "url": "https://developers.google.com/search/docs/appearance/core-updates",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/core-web-vitals.md",
 "title": "Understanding Core Web Vitals and Google search results",
 "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/ecosystem-carousel.md",
 "title": "Ecosystem carousel in Google Search",
 "url": "https://developers.google.com/search/docs/appearance/ecosystem-carousel",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/enable-web-stories.md",
 "title": "Enable Web Stories on Google",
 "url": "https://developers.google.com/search/docs/appearance/enable-web-stories",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/enriched-search-results.md",
 "title": "Enriched and Interactive Search Results",
 "url": "https://developers.google.com/search/docs/appearance/enriched-search-results",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/establish-business-details.md",
 "title": "Add Business Details to Google",
 "url": "https://developers.google.com/search/docs/appearance/establish-business-details",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/favicon-in-search.md",
 "title": "Define a favicon to show in search results",
 "url": "https://developers.google.com/search/docs/appearance/favicon-in-search",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/featured-snippets.md",
 "title": "Featured Snippets and Your Website",
 "url": "https://developers.google.com/search/docs/appearance/featured-snippets",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/flexible-sampling.md",
 "title": "Flexible Sampling Guidelines",
 "url": "https://developers.google.com/search/docs/appearance/flexible-sampling",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/google-discover.md",
 "title": "Get on Discover",
 "url": "https://developers.google.com/search/docs/appearance/google-discover",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/google-images.md",
 "title": "Image SEO Best Practices",
 "url": "https://developers.google.com/search/docs/appearance/google-images",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/job-sites.md",
 "title": "Job sites: aggregator carousel and refinement chip",
 "url": "https://developers.google.com/search/docs/appearance/job-sites",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/package-tracking.md",
 "title": "Package tracking Early Adopters Program",
 "url": "https://developers.google.com/search/docs/appearance/package-tracking",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/page-experience.md",
 "title": "Understanding page experience in Google Search results",
 "url": "https://developers.google.com/search/docs/appearance/page-experience",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/places-sites.md",
 "title": "Places sites: aggregator carousel and refinement chip",
 "url": "https://developers.google.com/search/docs/appearance/places-sites",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/preferred-sources.md",
 "title": "Help your readers find your site through preferred sources in Google Search",
 "url": "https://developers.google.com/search/docs/appearance/preferred-sources",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/publication-dates.md",
 "title": "Add a Byline Date to Google Search Results",
 "url": "https://developers.google.com/search/docs/appearance/publication-dates",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/ranking-systems-guide.md",
 "title": "A Guide to Google Search Ranking Systems",
 "url": "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/reviews-system.md",
 "title": "Google Search's Reviews System",
 "url": "https://developers.google.com/search/docs/appearance/reviews-system",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/search-profiles.md",
 "title": "Add a Search profile badge to your website",
 "url": "https://developers.google.com/search/docs/appearance/search-profiles",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/site-names.md",
 "title": "Site Names in Google Search",
 "url": "https://developers.google.com/search/docs/appearance/site-names",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/sitelinks.md",
 "title": "Learn About What Sitelinks Are",
 "url": "https://developers.google.com/search/docs/appearance/sitelinks",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/snippet.md",
 "title": "Control your snippets in search results",
 "url": "https://developers.google.com/search/docs/appearance/snippet",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/south-africa-features.md",
 "title": "Search experiences in South Africa: badge and refinement chip",
 "url": "https://developers.google.com/search/docs/appearance/south-africa-features",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/spam-updates.md",
 "title": "Google Search Spam Updates",
 "url": "https://developers.google.com/search/docs/appearance/spam-updates",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/supplier-unit.md",
 "title": "Supplier unit in Google Search",
 "url": "https://developers.google.com/search/docs/appearance/supplier-unit",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/title-link.md",
 "title": "Influencing your title links in search results",
 "url": "https://developers.google.com/search/docs/appearance/title-link",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/top-places-list.md",
 "title": "Top Places List Optimization",
 "url": "https://developers.google.com/search/docs/appearance/top-places-list",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/translated-results.md",
 "title": "Translated Google Search Results",
 "url": "https://developers.google.com/search/docs/appearance/translated-results",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/ugc-fresh-data-program.md",
 "title": "UGC Fresh Data Program",
 "url": "https://developers.google.com/search/docs/appearance/ugc-fresh-data-program",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/video.md",
 "title": "Video SEO best practices",
 "url": "https://developers.google.com/search/docs/appearance/video",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/visual-elements-gallery.md",
 "title": "Visual Elements Gallery of Google Search",
 "url": "https://developers.google.com/search/docs/appearance/visual-elements-gallery",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/web-stories-content-policy.md",
 "title": "Google Web Story Content Policies",
 "url": "https://developers.google.com/search/docs/appearance/web-stories-content-policy",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "appearance/web-stories-creation-best-practices.md",
 "title": "Best practices for creating Web Stories",
 "url": "https://developers.google.com/search/docs/appearance/web-stories-creation-best-practices",
-"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems, page experience"
+"section": "Search appearance: titles, snippets, images, video, Discover, ranking systems"
 },
 {
 "file": "specialty/ecommerce.md",
 "title": "SEO Best Practices for Ecommerce Sites",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites.md",
 "title": "Ecommerce URL Structure Best Practices",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/help-google-understand-your-ecommerce-site-structure.md",
 "title": "Ecommerce Website Navigation Structure",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/how-to-launch-an-ecommerce-website.md",
 "title": "How To Launch an Ecommerce Site on Google",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/how-to-launch-an-ecommerce-website",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/include-structured-data-relevant-to-ecommerce.md",
 "title": "Structured Data for Ecommerce Sites",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/include-structured-data-relevant-to-ecommerce",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/pagination-and-incremental-page-loading.md",
 "title": "Pagination Best Practices for Google",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/share-your-product-data-with-google.md",
 "title": "Share Your Product Data With Google",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/share-your-product-data-with-google",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/where-ecommerce-data-can-appear-on-google.md",
 "title": "Ecommerce Product Data and Content on Google",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/where-ecommerce-data-can-appear-on-google",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/ecommerce/write-high-quality-reviews.md",
 "title": "How To Write Reviews",
 "url": "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews",
-"section": "Ecommerce"
+"section": "Ecommerce: product data, URL structure, pagination"
 },
 {
 "file": "specialty/international.md",
 "title": "Overview of International and Multilingual Site Topics",
 "url": "https://developers.google.com/search/docs/specialty/international",
-"section": "International and multilingual (hreflang)"
+"section": "International: multilingual sites and hreflang"
 },
 {
 "file": "specialty/international/locale-adaptive-pages.md",
 "title": "How Google Crawls Locale-Adaptive Pages",
 "url": "https://developers.google.com/search/docs/specialty/international/locale-adaptive-pages",
-"section": "International and multilingual (hreflang)"
+"section": "International: multilingual sites and hreflang"
 },
 {
 "file": "specialty/international/localized-versions.md",
 "title": "Tell Google about localized versions of your page",
 "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
-"section": "International and multilingual (hreflang)"
+"section": "International: multilingual sites and hreflang"
 },
 {
 "file": "specialty/international/managing-multi-regional-sites.md",
 "title": "Managing Multi-Regional and Multilingual Sites",
 "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
-"section": "International and multilingual (hreflang)"
+"section": "International: multilingual sites and hreflang"
 },
 {
 "file": "specialty/explicit/guidelines.md",
 "title": "Guidelines for sites with explicit content",
 "url": "https://developers.google.com/search/docs/specialty/explicit/guidelines",
-"section": "Explicit content"
+"section": "Explicit content: SafeSearch guidelines and troubleshooting"
 },
 {
 "file": "specialty/explicit/troubleshooting.md",
 "title": "My Site is Incorrectly Flagged as Explicit in Google Search",
 "url": "https://developers.google.com/search/docs/specialty/explicit/troubleshooting",
-"section": "Explicit content"
+"section": "Explicit content: SafeSearch guidelines and troubleshooting"
 },
 {
 "file": "monitor-debug/security.md",
 "title": "Prevent Abuse on Your Site",
 "url": "https://developers.google.com/search/docs/monitor-debug/security",
-"section": "Security: malware, social engineering"
+"section": "Security: malware and social engineering"
 },
 {
 "file": "monitor-debug/security/malware.md",
 "title": "Malware and Unwanted Software Overview",
 "url": "https://developers.google.com/search/docs/monitor-debug/security/malware",
-"section": "Security: malware, social engineering"
+"section": "Security: malware and social engineering"
 },
 {
 "file": "monitor-debug/security/prevent-malware.md",
 "title": "How To Prevent Malware Infection",
 "url": "https://developers.google.com/search/docs/monitor-debug/security/prevent-malware",
-"section": "Security: malware, social engineering"
+"section": "Security: malware and social engineering"
 },
 {
 "file": "monitor-debug/security/safe-browsing-repeat-offenders.md",
 "title": "Google Safe Browsing Repeat Offenders Policy",
 "url": "https://developers.google.com/search/docs/monitor-debug/security/safe-browsing-repeat-offenders",
-"section": "Security: malware, social engineering"
+"section": "Security: malware and social engineering"
 },
 {
 "file": "monitor-debug/security/social-engineering.md",
 "title": "Social Engineering (Phishing and Deceptive Sites)",
 "url": "https://developers.google.com/search/docs/monitor-debug/security/social-engineering",
-"section": "Security: malware, social engineering"
+"section": "Security: malware and social engineering"
 },
 {
 "file": "monitor-debug/analyze-social-video-content.md",
 "title": "Analyze your social and video platform content performance in Search Console",
 "url": "https://developers.google.com/search/docs/monitor-debug/analyze-social-video-content",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/bubble-chart-analysis.md",
 "title": "How to Create a Search Console Bubble Chart",
 "url": "https://developers.google.com/search/docs/monitor-debug/bubble-chart-analysis",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/debugging-search-traffic-drops.md",
 "title": "Debug Google Search Traffic Drops",
 "url": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/google-analytics-search-console.md",
 "title": "Using Search Console and Google Analytics Data for SEO",
 "url": "https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/identify-google-search-traffic.md",
 "title": "Identify Google Search traffic in your web analytics or server logs",
 "url": "https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/prevent-abuse.md",
 "title": "Prevent user-generated spam on your site and platform",
 "url": "https://developers.google.com/search/docs/monitor-debug/prevent-abuse",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/search-console-start.md",
 "title": "How To Use Search Console",
 "url": "https://developers.google.com/search/docs/monitor-debug/search-console-start",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/search-operators.md",
 "title": "Debugging with Google Search Operators",
 "url": "https://developers.google.com/search/docs/monitor-debug/search-operators",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/search-operators/all-search-site.md",
 "title": "How To Use the Site Search Operator",
 "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/search-operators/image-search.md",
 "title": "Google Images Search Operators",
 "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/image-search",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "monitor-debug/trends-start.md",
 "title": "Get started with Google Trends",
 "url": "https://developers.google.com/search/docs/monitor-debug/trends-start",
-"section": "Monitoring and debugging: Search Console, traffic drops, search operators"
+"section": "Monitoring: Search Console, traffic drops, search operators"
 },
 {
 "file": "index.md",
 "title": "Documentation to Improve SEO",
 "url": "https://developers.google.com/search/docs",
-"section": "Top-level overview pages"
+"section": "Overview: top-level landing pages"
 }
 ]
