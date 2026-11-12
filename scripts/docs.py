@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import math
 import re
 import sys
@@ -144,6 +145,16 @@ def cmd_index(_: argparse.Namespace) -> int:
         if heading in groups:
             out += [f"## {heading}", "", *groups[heading], ""]
     (REFS / "page-index.md").write_text("\n".join(out), "utf-8")
+    # Slim list for the GitHub Pages browser (index.html at the repo root).
+    listing = []
+    for path in all_pages():
+        meta, lines = read_page(path)
+        r = rel(path)
+        listing.append({"file": r, "title": meta.get("title", r), "url": meta.get("url", ""),
+                        "section": next(h for prefix, h in SECTIONS if r.startswith(prefix))})
+    order = list(dict.fromkeys(h for _, h in SECTIONS))
+    listing.sort(key=lambda p: (order.index(p["section"]), p["file"]))
+    (REFS / "pages.json").write_text(json.dumps(listing, ensure_ascii=False, indent=0), "utf-8")
     print(f"wrote {REFS / 'page-index.md'} ({sum(map(len, groups.values()))} pages)")
     return 0
 

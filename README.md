@@ -9,6 +9,8 @@ publishes instead of in memory.
 
 Docs snapshot: **2026-11-13**.
 
+Browse the bundled pages online: <https://abhaysoft-inc.github.io/google-search-central/>
+
 ## What it does
 
 - **Answers with citations** - what Google requires, supports or recommends,
@@ -48,6 +50,8 @@ entry point; everything else is plain Markdown plus two Python scripts.
 | `references/index.json` | Crawl manifest (title, URL, links per page) |
 | `scripts/docs.py` | Keyword search, page outlines, index rebuild (standard library only) |
 | `scripts/crawl_search_docs.py` | The crawler used to fetch the docs |
+| `references/pages.json` | Slim page list used by the website |
+| `index.html`, `.nojekyll` | The GitHub Pages site that lists and renders every page |
 | `evals/` | Three test cases with pass/fail checks |
 | `test-results/` | Outputs and scores from the first test run |
 
