@@ -1,9 +1,9 @@
 ---
-name: google-search-central
+name: seo-canon
 description: Offline copy of Google's official Search Central documentation (185 pages - SEO fundamentals, Search Essentials and spam policies, crawling and indexing, robots.txt, Googlebot and other Google crawlers, sitemaps, canonicals, redirects, noindex, JavaScript SEO, hreflang, structured data and rich results for every supported type, title links, snippets, images, video, AI features, ranking systems, ecommerce, site moves). Use this skill whenever the user asks what Google says, requires, supports or recommends for Search; whenever you are about to write or review JSON-LD / schema.org markup, robots.txt, meta robots rules, canonical tags, hreflang, sitemaps or redirects; and whenever you audit a page or site for Google SEO compliance - even if the user does not mention Google's docs. Google's requirements change often and remembered details (required properties, supported rich result types, crawler names) are frequently out of date, so check here instead of answering from memory.
 ---
 
-# Google Search Central docs
+# SEO Canon: Google's Search Central docs, offline
 
 This skill bundles a snapshot of Google's own documentation from
 `developers.google.com/search/docs` and `developers.google.com/crawling/docs`,

@@ -1,4 +1,4 @@
-# Skill Benchmark: google-search-central
+# Skill Benchmark: seo-canon
 
 **Model**: <model-name>
 **Date**: 2026-11-12T19:02:38Z

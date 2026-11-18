@@ -1,4 +1,4 @@
-# google-search-central
+# seo-canon
 
 An agent skill that bundles an offline copy of Google's official Search
 documentation (185 pages from
@@ -9,7 +9,7 @@ publishes instead of in memory.
 
 Docs snapshot: **2026-11-13**.
 
-Browse the bundled pages online: <https://abhaysoft-inc.github.io/google-search-central/>
+Browse the bundled pages online: <https://abhaysoft-inc.github.io/seo-canon/>
 
 ## What it does
 
@@ -28,10 +28,10 @@ The repository root is the skill folder.
 **Claude Code** (all projects):
 
 ```bash
-git clone https://github.com/Abhaysoft-inc/google-search-central ~/.claude/skills/google-search-central
+git clone https://github.com/Abhaysoft-inc/seo-canon ~/.claude/skills/seo-canon
 ```
 
-For a single project, clone into `.claude/skills/google-search-central` inside
+For a single project, clone into `.claude/skills/seo-canon` inside
 that project instead.
 
 **Claude desktop / claude.ai**: zip the folder (or use a packaged `.skill`
