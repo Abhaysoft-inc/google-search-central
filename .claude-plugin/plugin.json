@@ -1,0 +1,14 @@
+{
+  "name": "seo-canon",
+  "displayName": "SEO Canon",
+  "version": "1.0.0",
+  "description": "SEO grounded in Google's own docs: an offline copy of Google Search Central (185 pages) for answering with citations, auditing pages and robots.txt, and generating Google-compliant structured data, robots rules, canonicals and hreflang.",
+  "author": {
+    "name": "Abhaysoft-inc",
+    "url": "https://github.com/Abhaysoft-inc"
+  },
+  "homepage": "https://abhaysoft-inc.github.io/seo-canon/",
+  "repository": "https://github.com/Abhaysoft-inc/seo-canon",
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": ["seo", "google-search", "structured-data", "schema-org", "robots-txt", "technical-seo", "geo", "aeo"]
+}

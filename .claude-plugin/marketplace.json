@@ -1,0 +1,16 @@
+{
+  "name": "abhaysoft",
+  "description": "Plugins by Abhaysoft-inc",
+  "owner": {
+    "name": "Abhaysoft-inc",
+    "url": "https://github.com/Abhaysoft-inc"
+  },
+  "plugins": [
+    {
+      "name": "seo-canon",
+      "source": "./",
+      "description": "SEO grounded in Google's own Search Central docs: cited answers, audits, and compliant structured data, robots.txt, canonicals and hreflang.",
+      "category": "seo"
+    }
+  ]
+}
